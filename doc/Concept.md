@@ -9,7 +9,7 @@
 
 # Demo
 
-![Image](.doc/demo.gif)
+![Image](demo.gif)
 
 
 # Summary
