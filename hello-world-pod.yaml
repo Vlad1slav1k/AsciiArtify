@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: hello-world-pod
+spec:
+  containers:
+  - name: hello-world-container
+    image: busybox:latest # You can use other images like "hello-world" or a custom image
+    command: ["sh", "-c", "echo 'Hello from k3d!'; sleep 3600"] # Example command for busybox	
+
